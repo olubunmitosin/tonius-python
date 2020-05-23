@@ -1,0 +1,45 @@
+{
+    "name": "tonius/python",
+    "description": "Tonius | Python Script Runner :: A package built to smooth-run simple and complex python scripts inside PHP and Laravel projects.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "olubunmi tosin",
+            "email": "olubunmivictor6@gmail.com",
+            "homepage": "author homepage"
+        }
+    ],
+    "homepage": "https://github.com/olubunmitosin/tonius-python",
+    "keywords": ["Laravel", "python", "tonius"],
+    "require": {
+        "illuminate/support": "~5|~6|~7",
+        "symfony/process" : "~4|~5",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3|~4",
+        "sempro/phpunit-pretty-print": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "tonius\\python\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "tonius\\python\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "tonius\\python\\pythonServiceProvider"
+            ],
+            "aliases": {
+                "python": "tonius\\python\\Facades\\Python"
+            }
+        }
+    }
+}
