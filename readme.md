@@ -2,9 +2,6 @@
 ================================================================================
 
 [![Build Status](https://travis-ci.org/olubunmi708/views.svg?branch=master)](https://travis-ci.org/olubunmi708/views)
-[![Latest Stable Version](https://poser.pugx.org/kesty/view/v/stable)](https://packagist.org/packages/kesty/view)
-[![Total Downloads](https://poser.pugx.org/kesty/view/downloads)](https://packagist.org/packages/kesty/view)
-[![Latest Unstable Version](https://poser.pugx.org/kesty/view/v/unstable)](https://packagist.org/packages/kesty/view)
 [![License](https://poser.pugx.org/kesty/view/license)](https://packagist.org/packages/kesty/view)
 
 Tonius Python :: A package built to smooth-run simple and complex python scripts inside PHP and Laravel projects. 
