@@ -2,6 +2,7 @@
 
 cp composer.json original-composer.json
 
+composer require codedungeon/phpunit-result-printer --no-update --dev
 sed '/    printerClass="Codedungeon\\PHPUnitPrettyResultPrinter\\Printer"/d' phpunit.xml > phpunit-57.xml
 composer remove codedungeon/phpunit-result-printer --no-update --dev
 composer require "orchestra/testbench:3.8.*" --no-update --dev

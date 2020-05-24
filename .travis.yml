@@ -1,5 +1,7 @@
 language: php
 
+sudo: true
+
 matrix:
   include:
     - php: 7.2

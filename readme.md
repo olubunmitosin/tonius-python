@@ -4,7 +4,7 @@
 [![Version](https://poser.pugx.org/tonius/python/version)](//packagist.org/packages/tonius/python)
 [![Build Status](https://travis-ci.org/olubunmitosin/tonius-python.svg?branch=master)](https://travis-ci.org/olubunmitosin/tonius-python)
 [![Total Downloads](https://poser.pugx.org/tonius/python/downloads)](//packagist.org/packages/tonius/python)
-[![Latest Unstable Version](https://poser.pugx.org/tonius/python/v/unstable)](//packagist.org/packages/tonius/python)
+[![StyleCI](https://github.styleci.io/repos/266439652/shield?branch=master)](https://github.styleci.io/repos/266439652)
 [![License](https://poser.pugx.org/tonius/python/license)](//packagist.org/packages/tonius/python)
 [![Monthly Downloads](https://poser.pugx.org/tonius/python/d/monthly)](//packagist.org/packages/tonius/python)
 [![composer.lock](https://poser.pugx.org/tonius/python/composerlock)](//packagist.org/packages/tonius/python)
