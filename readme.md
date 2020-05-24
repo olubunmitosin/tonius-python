@@ -37,7 +37,7 @@ $options = [
 #### Run Example script
 ```php
 use tonius\python\Facades\Python;
-$response = Python::run(null, ['test' => true]);
+$response = Python::run(null, ['test' => true ]);
 ```
 ## Change log
 
