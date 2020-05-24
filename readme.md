@@ -1,5 +1,6 @@
 # python
 ================================================================================
+
 [![Build Status](https://travis-ci.org/olubunmi708/views.svg?branch=master)](https://travis-ci.org/olubunmi708/views)
 [![Latest Stable Version](https://poser.pugx.org/kesty/view/v/stable)](https://packagist.org/packages/kesty/view)
 [![Total Downloads](https://poser.pugx.org/kesty/view/downloads)](https://packagist.org/packages/kesty/view)
@@ -20,6 +21,27 @@ $ composer require tonius/python
 
 ## Usage
 
+You must have python installed.
+
+
+```
+use tonius\python\Facades\Python;
+$response = Python::run($fileName);
+```
+Available options;
+````php
+$options = [
+    'test' => true, // To run a default test script if filename is not passes
+    'output' => 'json', // Output types : json, file, raw. it's raw by default
+    'fileName' => 'example.json' // .txt, php, e.t.c If you specify output to be file, you must pass the name of file to dump the output
+];
+````
+
+#### Run Example script
+```php
+use tonius\python\Facades\Python;
+$response = Python::run(null, ['test' => true]);
+```
 ## Change log
 
 Please see the [changelog](changelog.md) for more information on what has changed recently.
@@ -27,7 +49,7 @@ Please see the [changelog](changelog.md) for more information on what has change
 ## Testing
 
 ``` bash
-$ composer test
+$ ./vendor/bin/phpunit
 ```
 
 ## Contributing
