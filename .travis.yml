@@ -3,7 +3,7 @@ language: php
 sudo: true
 
 php:
-  - "7.1"
+  - "7.2"
 
 install:
   # fix ipv6 issue that prevented composer requests and resulted in failing builds
@@ -15,9 +15,9 @@ install:
   # create a new laravel project in the subfolder laravel (default composer behaviour)
   - composer create-project laravel/laravel --prefer-dist laravel "5.7.*"
 
-before_script:
-  - composer self-update
-  - composer install --no-interaction
+#before_script:
+#  - composer self-update
+#  - composer install --no-interaction
 
 script:
   - php artisan key:generate
