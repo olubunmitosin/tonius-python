@@ -1,23 +1,22 @@
 language: php
 
-sudo: true
+matrix:
+  include:
+    - php: 7.1
+      env: PU_FILE=56
+    - php: 7.2
+      env: PU_FILE=56
+    - php: 7.2
+      env: PU_FILE=57
 
-php:
-  - "7.2"
-
-install:
-  # fix ipv6 issue that prevented composer requests and resulted in failing builds
-  - sudo sh -c "echo 'precedence ::ffff:0:0/96  100' >> /etc/gai.conf"
-  # updates composer on travis
+before_script:
   - travis_retry composer self-update
-  # clear composer cache, might speed up finding new tags
-  - travis_retry composer clear-cache
-  # create a new laravel project in the subfolder laravel (default composer behaviour)
-  - composer create-project laravel/laravel --prefer-dist laravel "5.7.*"
+  - travis_retry composer install --no-interaction --prefer-source
+  - chmod +x tests/*.sh
+
 
 script:
-  # run the script calling unit tests and so on
-  - ./scripts/travis.sh
+  - ./tests/py-${PU_FILE}.sh
 
-after_script:
-  - if [[ $TRAVIS_PHP_VERSION != '7.0' ]]; then php vendor/bin/ocular code-coverage:upload --format=php-clover ${TRAVIS_BUILD_DIR}/coverage.clover; fi
+after_success:
+  - travis_retry php vendor/bin/php-coveralls -v
