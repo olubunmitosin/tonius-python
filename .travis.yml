@@ -2,8 +2,6 @@ language: php
 
 matrix:
   include:
-    - php: 7.1
-      env: PU_FILE=56
     - php: 7.2
       env: PU_FILE=56
     - php: 7.2

@@ -4,15 +4,8 @@ cp composer.json original-composer.json
 
 sed '/    printerClass="Codedungeon\\PHPUnitPrettyResultPrinter\\Printer"/d' phpunit.xml > phpunit-57.xml
 composer remove codedungeon/phpunit-result-printer --no-update --dev
-composer require "orchestra/database:3.5.*" --no-update --dev
-composer require "orchestra/testbench:3.5.*" --no-update --dev
-composer require "orchestra/testbench-browser-kit:3.5.*" --no-update --dev
-composer require "illuminate/cache:5.5.*" --no-update
-composer require "illuminate/config:5.5.*" --no-update
-composer require "illuminate/console:5.5.*" --no-update
-composer require "illuminate/database:5.5.*" --no-update
-composer require "illuminate/support:5.5.*" --no-update
-composer require "phpunit/phpunit:6.*" --no-update --dev
+composer require "orchestra/testbench:3.7.*" --no-update --dev
+composer require "phpunit/phpunit:7.*" --no-update --dev
 composer update --prefer-source --no-interaction
 
 rm composer.json
