@@ -15,10 +15,9 @@ install:
   # create a new laravel project in the subfolder laravel (default composer behaviour)
   - composer create-project laravel/laravel --prefer-dist laravel "5.7.*"
 
-#before_script:
-#  - composer self-update
-#  - composer install --no-interaction
-
 script:
-  - php artisan key:generate
-  - vendor/bin/phpunit
+  # run the script calling unit tests and so on
+  - ./scripts/travis.sh
+
+after_script:
+  - if [[ $TRAVIS_PHP_VERSION != '7.0' ]]; then php vendor/bin/ocular code-coverage:upload --format=php-clover ${TRAVIS_BUILD_DIR}/coverage.clover; fi
