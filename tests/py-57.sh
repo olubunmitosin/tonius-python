@@ -8,6 +8,7 @@ composer remove codedungeon/phpunit-result-printer --no-update --dev
 composer require "orchestra/testbench:3.8.*" --no-update --dev
 composer require "phpunit/phpunit:8.*" --no-update --dev
 composer update --prefer-source --no-interaction
+pwd python
 sudo apt-get install python-psutil
 
 rm composer.json
