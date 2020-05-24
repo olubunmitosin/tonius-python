@@ -6,16 +6,9 @@ use tonius\python\Facades\Python;
 
 class PythonTest extends \Orchestra\Testbench\TestCase
 {
-    protected $fileName;
+    protected $fileName = null;
 
-    protected $options;
-
-    public function setUp()
-    {
-        parent::setUp();
-        $this->fileName = null;
-        $this->options = ['test' => true];
-    }
+    protected $options = ['test' => true];
 
     protected function getPackageProviders($app)
     {
