@@ -1,8 +1,7 @@
 # python
 ================================================================================
 
-[![Build Status](https://travis-ci.org/olubunmi708/views.svg?branch=master)](https://travis-ci.org/olubunmi708/views)
-[![License](https://poser.pugx.org/kesty/view/license)](https://packagist.org/packages/kesty/view)
+[![Latest Stable Version](https://poser.pugx.org/phpunit/phpunit/v)](//packagist.org/packages/phpunit/phpunit) [![Total Downloads](https://poser.pugx.org/phpunit/phpunit/downloads)](//packagist.org/packages/phpunit/phpunit) [![Latest Unstable Version](https://poser.pugx.org/phpunit/phpunit/v/unstable)](//packagist.org/packages/phpunit/phpunit) [![License](https://poser.pugx.org/phpunit/phpunit/license)](//packagist.org/packages/phpunit/phpunit)
 
 Tonius Python :: A package built to smooth-run simple and complex python scripts inside PHP and Laravel projects. 
 This is very useful when we need to perform system based operations and at the same time want to use the result in out PHP Applications. Credits to [Symfony Foundation](https://symfony.com/).
