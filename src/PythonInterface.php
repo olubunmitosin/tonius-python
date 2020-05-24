@@ -3,8 +3,7 @@
 namespace tonius\python;
 
 /**
- * Interface PythonInterface
- * @package tonius\python
+ * Interface PythonInterface.
  *
  * @method static run(string $fileName = null)
  */

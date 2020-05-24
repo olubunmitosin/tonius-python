@@ -1,8 +1,6 @@
 <?php
 
-
 namespace tonius\python\Exceptions;
-
 
 use Exception;
 use InvalidArgumentException;

@@ -4,9 +4,8 @@ namespace tonius\python\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-
 /**
- * Facade Accessor for Tonius Python
+ * Facade Accessor for Tonius Python.
  *
  * @method static run( string $fileName = null, $options = [])
  */
