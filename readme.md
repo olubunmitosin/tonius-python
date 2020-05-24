@@ -74,6 +74,6 @@ MIT. Please see the [license file](license.md) for more information.
 [link-packagist]: https://packagist.org/packages/tonius/python
 [link-downloads]: https://packagist.org/packages/tonius/python
 [link-travis]: https://travis-ci.org/tonius/python
-[link-styleci]: https://styleci.io/repos/12345678
-[link-author]: https://github.com/tonius
+[link-styleci]: https://github.styleci.io/repos/266439652
+[link-author]: https://github.com/olubunmitosin
 [link-contributors]: ../../contributors
