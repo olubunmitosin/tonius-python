@@ -1,7 +1,12 @@
 # python
 ================================================================================
 
-[![Latest Stable Version](https://poser.pugx.org/phpunit/phpunit/v)](//packagist.org/packages/phpunit/phpunit) [![Total Downloads](https://poser.pugx.org/phpunit/phpunit/downloads)](//packagist.org/packages/phpunit/phpunit) [![Latest Unstable Version](https://poser.pugx.org/phpunit/phpunit/v/unstable)](//packagist.org/packages/phpunit/phpunit) [![License](https://poser.pugx.org/phpunit/phpunit/license)](//packagist.org/packages/phpunit/phpunit)
+[![Latest Stable Version](https://poser.pugx.org/tonius/python/v)](//packagist.org/packages/tonius/python)
+[![Total Downloads](https://poser.pugx.org/tonius/python/downloads)](//packagist.org/packages/tonius/python)
+[![Latest Unstable Version](https://poser.pugx.org/tonius/python/v/unstable)](//packagist.org/packages/tonius/python)
+[![License](https://poser.pugx.org/tonius/python/license)](//packagist.org/packages/tonius/python)
+[![Monthly Downloads](https://poser.pugx.org/tonius/python/d/monthly)](//packagist.org/packages/tonius/python)
+[![Daily Downloads](https://poser.pugx.org/tonius/python/d/daily)](//packagist.org/packages/tonius/python)
 
 Tonius Python :: A package built to smooth-run simple and complex python scripts inside PHP and Laravel projects. 
 This is very useful when we need to perform system based operations and at the same time want to use the result in out PHP Applications. Credits to [Symfony Foundation](https://symfony.com/).
