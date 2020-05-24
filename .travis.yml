@@ -1,8 +1,7 @@
 language: php
-
-sudo: true
-
-matrix:
+os: linux
+dist: bionic
+jobs:
   include:
     - php: 7.2
       env: PU_FILE=57
