@@ -2,6 +2,7 @@
 ================================================================================
 
 [![Version](https://poser.pugx.org/tonius/python/version)](//packagist.org/packages/tonius/python)
+[![Build Status](https://travis-ci.org/olubunmitosin/tonius-python.svg?branch=master)](https://travis-ci.org/olubunmitosin/tonius-python)
 [![Total Downloads](https://poser.pugx.org/tonius/python/downloads)](//packagist.org/packages/tonius/python)
 [![Latest Unstable Version](https://poser.pugx.org/tonius/python/v/unstable)](//packagist.org/packages/tonius/python)
 [![License](https://poser.pugx.org/tonius/python/license)](//packagist.org/packages/tonius/python)
