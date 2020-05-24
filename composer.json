@@ -2,7 +2,7 @@
     "name": "tonius/python",
     "description": "Tonius | Python :: A package that provides flexibility and built to smooth-run simple and complex python scripts inside PHP and Laravel projects.",
     "license": "MIT",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "authors": [
         {
             "name": "olubunmi tosin",
