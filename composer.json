@@ -1,6 +1,6 @@
 {
     "name": "tonius/python",
-    "description": "Tonius | Python Script Runner :: A package built to smooth-run simple and complex python scripts inside PHP and Laravel projects.",
+    "description": "Tonius | Python :: A package that provides flexibility and built to smooth-run simple and complex python scripts inside PHP and Laravel projects.",
     "license": "MIT",
     "version": "2.0.0",
     "authors": [
