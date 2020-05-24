@@ -1,10 +1,10 @@
 <?php
-namespace tonius\python\Tests;
+namespace tonius\python\tests;
 
 use PHPUnit\Framework\TestCase;
 use tonius\python\Facades\Python;
 
-class PythonTest extends TestCase
+class PythonTest extends \Orchestra\Testbench\TestCase
 {
     protected $fileName;
 
@@ -17,6 +17,10 @@ class PythonTest extends TestCase
         $this->options = ['test' => true];
     }
 
+    protected function getPackageProviders($app)
+    {
+        return ['tonius\\python\\pythonServiceProvider'];
+    }
 
     public function testOutput()
     {
