@@ -1,7 +1,7 @@
 <?php
+
 namespace tonius\python\tests;
 
-use PHPUnit\Framework\TestCase;
 use tonius\python\Facades\Python;
 
 class PythonTest extends \Orchestra\Testbench\TestCase

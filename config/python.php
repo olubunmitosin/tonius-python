@@ -15,7 +15,6 @@ return [
 
     'python_dir' => 'pythonDir',
 
-
     /*
     |--------------------------------------------------------------------------
     | Python Output Directory
@@ -26,5 +25,5 @@ return [
     | You can specify custom dir.
     |
     */
-    'output_dir' => 'pythonDir/output'
+    'output_dir' => 'pythonDir/output',
 ];
